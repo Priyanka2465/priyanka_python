@@ -1,0 +1,21 @@
+#string...
+
+s="hello is"
+# print(s)
+# print(len(s))
+# print(s.capitalize())
+# print(s.casefold())
+# print(s.lower())
+# print("_______")
+# print(s.center(30,"*"))
+# print(s.count("l"))
+# print(s.endswith("l"))
+# print("_____________")
+# #print(s.find("l",2))
+# print(s.index("l",2))
+# print(s.isalnum())
+# print(s.isalpha())
+#print(s.index("l",4))
+print("-".join(s))
+print()
+print(s.isspace())
