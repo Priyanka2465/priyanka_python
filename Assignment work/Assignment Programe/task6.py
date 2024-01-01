@@ -1,15 +1,7 @@
-#without temp variable
-a=12
-b=13
-a=a+b
-b=a-b
-a=a-b
-print(a,b)
+# Write a Python program to test whether a passed letter is a vowel or not.
 
-#with temp variable...
-a=12 
-b=13
-temp=a
-a=b
-b=temp
-print(a,b)
+i=input("Enter the letter=")
+if i=="o" or i=="i" or i=="e" or i=="u" or i=="a" or i=="O" or i=="I" or i=="E" or i=="U" or i=="A" :
+    print("This letter is vowel")
+else:
+    print("This letter is not vowel")

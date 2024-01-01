@@ -1,9 +1,11 @@
-a=int(input("Enter 1st number="))
-b=int(input("Enter 2nd number="))
-c=int(input("Enter 3rd number="))
-d=a+b+c
-if a==b or b==c or a==c:
-    print("Sum=0")
-else:
-    print("Sum=",d)
-#Priyanka@24165
+# Write a python program to sum of the first n positive integers.
+
+# n=int(input("Enter number="))
+# sum=sum(range(n+1))
+# print(sum)
+
+n=int(input("Enter the number="))
+sum=0
+for i in range(0,n+1):
+    sum=sum+i
+print(sum)

@@ -1,5 +1,9 @@
-i=input("Enter the letter=")
-if i=="o" or i=="i" or i=="e" or i=="u" or i=="a" or i=="O" or i=="I" or i=="E" or i=="U" or i=="A" :
-    print("This letter is vowel")
+# Write a Python program that will return true if the two given integer values are equal 
+# or their sum or difference is 5.
+
+a=int(input("Enter 1st number="))
+b=int(input("Enter 2nd number="))
+if a==b or a-b==5 or a+b==5:
+    print("True")
 else:
-    print("This letter is not vowel")
+    print("False")
