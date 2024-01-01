@@ -9,4 +9,4 @@ for words in n:
         dict[words]+=1
     else:
         dict[words]=1
-print(dict)#left........
+print(dict)
