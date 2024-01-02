@@ -1,12 +1,12 @@
 #Write a Python program to count the occurrences of each word in a given sentence....
 
 n=input("Enter the string=")
-dict={}
+dicts=dict()
 words = n.split()
 
-for words in n:
-    if words in dict:
-        dict[words]+=1
+for i in words:
+    if i in dicts:
+        dicts[i]+=1
     else:
-        dict[words]=1
-print(dict)
+        dicts[i]=1
+print(dicts)

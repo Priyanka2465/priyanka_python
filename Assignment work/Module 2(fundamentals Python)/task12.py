@@ -2,3 +2,5 @@
 i=input("Enter the string=")
 n=input("Enter letter=")
 print(i.count(n))
+
+
