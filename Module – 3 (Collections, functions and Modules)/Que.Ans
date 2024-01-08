@@ -1,0 +1,5 @@
+1.    What is List? How will you reverse a list? 
+Ans.  A list is a data structure in Python that is a mutable, or changeable, ordered sequence of elements.the reverse() method reverses a list.
+
+2.    Differentiate between append () and extend () methods?  
+Ans.  append() takes a single element and adds it as is, while extend() takes an iterable (like a list) and appends its elements individually to the list.
