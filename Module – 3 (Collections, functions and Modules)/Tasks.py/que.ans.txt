@@ -1,0 +1,49 @@
+1.  What is List? How will you reverse a list? 
+Ans.A list is a data structure in Python that is a mutable, or changeable, ordered.
+
+2. Differentiate between append () and extend () methods? 
+Ans.Append function in Python adds a single element to the end of the list, and the extend 
+    function adds multiple elements to the list.
+
+3. What is tuple? Difference between list and tuple. 
+Ans.The difference between tuples and lists is that tuples are immutable objects, lists are mutable.
+
+4. How Do You Traverse Through A Dictionary Object In Python? 
+Ans.Iterate Python dictionary using build. keys()
+    Iterate through all values using . ...
+    Looping through Python Dictionary using for loop.
+    Iterate key-value pair using items()
+    Access key Using map() and dict. ...
+    Access key in Python Using zip()
+    Access key Using Unpacking of Dict.
+
+5. How Do You Check The Presence Of A Key In A Dictionary? 
+Ans. Using key() method  returns true if a given key is available in 
+      the dictionary, otherwise, it returns a false.
+
+6.  Why Do You Use the Zip () Method in Python? 
+Ans. Zip is an in-built function in Python used to iterate over multiple iterables.
+
+7. How Many Basic Types Of Functions Are Available In Python?
+Ans. There are two type of Functions.
+      (1)Built-in function & (2) User define function
+
+8. How can you pick a random item from a list or tuple?
+Ans. Use the random. choice() method.
+
+9.  How can you pick a random item from a range?
+Ans. Using random.randrange() function.
+     Using random.randint() function.
+     Using random.random() function.
+     Using random.sample()
+
+10. How can you get a random number in python? 
+Ans. Use randint() function.
+
+11. How will you set the starting value in generating random numbers?
+Ans. srand(x) used to set the starting value (seed) for generating a sequence 
+     of pseudo-random integer values. 
+
+12. How will you randomizes the items of a list in place?
+Ans. shuffle() function.
+
