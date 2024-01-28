@@ -1,7 +1,7 @@
 #Write a Python function that takes a list of words and returns the length of the longest one.
 l=["java","php","python"]
-l_len=[]
+le=[]
 for i in l:
-    l_len.append((len(i),i))
-l_len.sort()
-print(l_len[-1][0],l_len[-1][1])
+    le.append((len(i),i))
+le.sort()
+print(le[-1][0],le[-1][1])

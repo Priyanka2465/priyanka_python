@@ -1,0 +1,51 @@
+1.   What is File function in python? What is keywords to create and write file. 
+Ans. The key function for working with files in Python is the open() function.
+     The open() function takes two parameters; filename, and mode.
+
+     create= "x" keyword is use for create the file.
+     write= "w" keyword is use for write the file.
+
+2.   Explain Exception handling? What is an Error in Python?
+Ans. The try and except block in Python is used to catch and handle exceptions.
+     Errors interrupt the flow of the program at the point where they appear, so any further code stops executing.
+
+3.   How many except statements can a try-except block have? Name Some built-in exception classes: 
+Ans. There has to be at least one except statement.
+     (1). Type Error 
+     (2). Syntax Error
+     (3). ZeroDivision Error
+     (4). System Error
+     (5). Index Error
+
+4.  When will the else part of try-except-else be executed?
+Ans. If there is no exception then this block will be executed.
+
+5.  Can one block of except statements handle multiple exception?
+Ans. Yes, a single block of except statements in Python can handle multiple exceptions.
+
+6. When is the finally block executed? 
+Ans. Always...
+
+7. What happens when „1‟== 1 is executed? 
+Ans.  It simply evaluates to False and does not raise any exception.
+
+8.  What are oops concepts? Is multiple inheritance supported in java ?
+Ans.In Python, object-oriented Programming (OOPs) that uses objects and classes in programming. 
+     The main concept of OOPs is to bind the data and the functions that work on that together
+      as a single unit so that no other part of the code can access this data.
+
+     Java does not allow multiple inheritance...
+
+9. What is Instantiation in terms of OOP terminology?
+Ans. the processes of creating a new object for a class using a new keyword.
+
+10. What is used to check whether an object o is an instance of class A?
+Ans. An object is an instance of the class mentioned.
+
+11.  What relationship is appropriate for Course and Faculty?
+Ans. 
+
+12. What relationship is appropriate for Student and Person?
+Ans. "is-a"
+
+
